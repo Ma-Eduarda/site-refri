@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Drinks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="./img/logo.png" alt="logo fp">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Sobre</li>
+                <li>Fale Conosco</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="item active" style="--background: #ea3d41">
+            <div class="title">Morango</div>
+            <img class="fruit" src="./img/Morango-refrigerante-foregroundBlur.png">
+            <img class="refri" src="./img/Morango-refrigerante.png">
+        </div>
+
+        <div class="item" style="--background: #e7a043">
+            <div class="title">Laranja</div>
+            <img class="fruit" src="./img/Laranja-refrigerante-foregroundBlur.png">
+            <img class="refri" src="./img/Laranja-refrigerante.png">
+        </div>
+
+       <!--  <div class="item" style="--background: #2d6543 ">
+            <div class="title">Abacate</div>
+            <img class="fruit" src="./img/Abacate-refrigerante-foregroundBlur.png">
+            <img class="refri" src="./img/Abacate-refrigerante.png">
+        </div> -->
+
+        <button id="prev"> < </button>
+        <button id="next"> > </button>
+
+        <div class="text">
+            <h2>Leve 12 pague 10</h2>  
+            <p>Se você ainda não experimentou, vale a pena dar uma chance e desfrutar.
+            Não perca a chance de criar memórias inesquecíveis e surpreender seus amigos e familiares com esse delicioso refrigerante.</p>
+                <hr>
+            <p>Por: <b>R$ 2,99</b>  <span class="discount">-10%</span></p> </p>
+            <button>Compre com desconto</button>
+            <p>Oferta relâmpago:</p>
+            <div id="cronometro">00:00:00</div>
+        </div>
+
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
